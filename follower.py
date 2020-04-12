@@ -29,7 +29,7 @@ class TwitterBot:
             bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
             time.sleep(5)
             tweets = bot.find_elements_by_class_name('css-90loao')
-            links = [elem.get_attribute('role') for elem in tweets]
+            links = [elem.get_attribute('class') for elem in tweets]  #cant seem to find the correct attribute, will fix soon
             print(links)
             for link in links:
                 bot.get('https://twitter.com' + link)

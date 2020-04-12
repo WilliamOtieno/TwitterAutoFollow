@@ -216,3 +216,7 @@ Exiting due to channel error.
 1586701591527	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://twitter.com/, line 148: ChunkLoadError: Loading chunk 264 failed.
 (error: https://abs.twimg.com/responsive-web/web/ondemand.emoji.en.66802134.js)
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x8000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+1586708280301	Marionette	INFO	Stopped listening on port 39447
